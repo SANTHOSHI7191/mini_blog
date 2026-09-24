@@ -96,7 +96,7 @@ def create_blog():
 
     blog_id = generate_id("BLOG")
 
-    now = datetime.now(ZoneInfo("Asia/Kolkata"))
+    now = datetime.now(ZoneInfo("Africa/jaipur"))
     blogs.insert_one({
         "blog_id": blog_id,
         "title": title,
