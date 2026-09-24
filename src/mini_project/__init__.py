@@ -6,10 +6,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_jwt_extended import JWTManager,create_access_token,jwt_required,get_jwt_identity
 from datetime import datetime
 from zoneinfo import ZoneInfo
-
-
-
-
 db_url = f"mongodb+srv://nexturn-db:WIObj0a299SvgCXK@cluster0.79xwdan.mongodb.net/?appName=Cluster0"
 
 mongo_client = MongoClient(db_url) 
